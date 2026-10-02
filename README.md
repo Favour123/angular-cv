@@ -2,6 +2,14 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.8.
 
+## Deploy to GitHub Pages
+
+The `main` branch is built and deployed by the GitHub Actions workflow in
+`.github/workflows/deploy-pages.yml`. In the repository settings, open **Pages**
+and set **Build and deployment → Source** to **GitHub Actions**. After pushing
+to `main`, follow the workflow in the **Actions** tab; the project site is
+published at `https://favour123.github.io/angular-cv/`.
+
 ## Development server
 
 To start a local development server, run:
